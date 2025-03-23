@@ -9,7 +9,7 @@ app.use(express.json())
 
 app.use(cors())
 
-mongoose.connect("mongodb://localhost:27017/SChool_ms").then(() => {
+mongoose.connect("mongodb+srv://jacfarmahamed77:h7m2VuT7HuFONc1t@cluster0.g8dxp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0").then(() => {
     console.log("Connected Database")
 }).catch((error) => console.log(error))
 
